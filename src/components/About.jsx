@@ -27,7 +27,7 @@ const About = () => {
             DITA is first of all a community. We learn together and grow
             together. We strive for excellence as upcoming professionals. We are
             quick to embrace new members and introduce them into our culture. We
-            are a tech hub. Technology is our surname. In DITA, you matter.
+            are a tech hub. Technology is our surname. Technology for the world.
           </p>
         </div>
         <div className="flex-[0.5]">
