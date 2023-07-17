@@ -42,7 +42,10 @@ const Events = () => {
   }, []);
 
   return (
-    <div className="px-[14px] sm:px-[1em] md:px-[3em] lg:px-[5em] mt-[4em]">
+    <div
+      className="px-[14px] sm:px-[1em] md:px-[3em] lg:px-[5em] mt-[4em]"
+      id="events"
+    >
       <h2 className="text-2xl text-[#02AEEE] mb-[20px]">DITA EVENTS</h2>
       {/*  */}
       <p>{}</p>

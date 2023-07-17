@@ -21,7 +21,7 @@ const About = () => {
       <div className="flex flex-col sm:flex-row justify-evenly gap-[30px] items-center">
         <div className="flex-[0.5]">
           <h2 className="text-2xl mb-[15px] font-bold text-zinc-600">
-            What are we all About ?
+            What We Are All About
           </h2>
           <p className="">
             DITA is first of all a community. We learn together and grow
