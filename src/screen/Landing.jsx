@@ -6,6 +6,7 @@ import Leadership from "../components/Leadership";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 import Services from "../components/Services";
+import Gallery from "../components/gallery/Gallery";
 import Partners from "../components/partners/Partners";
 import Testimonial from "../components/testimonial/Testimonial";
 
@@ -19,7 +20,7 @@ const Landing = () => {
       <Events />
       <Services />
       <Projects />
-      {/* <Testimonial /> */}
+      <Gallery />
       <Contact />
       <Partners />
     </div>

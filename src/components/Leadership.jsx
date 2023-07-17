@@ -1,42 +1,12 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { AiOutlinePhone } from "react-icons/ai";
+
 import axios from "../axios";
 import { toast } from "react-toastify";
 import Spinner from "./Spinner";
 import { useEffect, useState } from "react";
 
 const Leadership = () => {
-  const dummyRentals = [
-    {
-      id: 1,
-      title: "Heri Hostel",
-      careTaker: "Joshua Okwema",
-      rent: "Ksh. 11,000",
-      mainPic:
-        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      secPic:
-        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      thirdPic:
-        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      phone: "0756 76676",
-    },
-    {
-      id: 2,
-      title: "Kryptons Hostel",
-      careTaker: "Joshua Okwema",
-      rent: "Ksh. 11,000",
-      mainPic:
-        "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      secPic:
-        "https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1600",
-
-      thirdPic:
-        "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      phone: "0756 76676",
-    },
-  ];
-
   const [loading, setLoading] = useState(false);
   const [leaders, setLeaders] = useState([]);
 
